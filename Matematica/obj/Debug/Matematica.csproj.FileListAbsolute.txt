@@ -1,0 +1,5 @@
+/Users/coala/Projects/Simulacao/Matematica/bin/Debug/Matematica.dll
+/Users/coala/Projects/Simulacao/Matematica/bin/Debug/Matematica.pdb
+/Users/coala/Projects/Simulacao/Matematica/obj/Debug/Matematica.csproj.CoreCompileInputs.cache
+/Users/coala/Projects/Simulacao/Matematica/obj/Debug/Matematica.dll
+/Users/coala/Projects/Simulacao/Matematica/obj/Debug/Matematica.pdb

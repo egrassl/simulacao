@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{E15B32A7-1BA4-4EA2-96E0-CCE93B8C02A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06", "MMCKF_Cap_Infinita\Lab06.csproj", "{CFF05550-CF75-424F-94C8-C62CD8329279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematica", "Matematica\Matematica.csproj", "{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15B32A7-1BA4-4EA2-96E0-CCE93B8C02A6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E15B32A7-1BA4-4EA2-96E0-CCE93B8C02A6}.Debug|x86.Build.0 = Debug|Any CPU
+		{E15B32A7-1BA4-4EA2-96E0-CCE93B8C02A6}.Release|x86.ActiveCfg = Release|Any CPU
+		{E15B32A7-1BA4-4EA2-96E0-CCE93B8C02A6}.Release|x86.Build.0 = Release|Any CPU
+		{CFF05550-CF75-424F-94C8-C62CD8329279}.Debug|x86.ActiveCfg = Debug|x86
+		{CFF05550-CF75-424F-94C8-C62CD8329279}.Debug|x86.Build.0 = Debug|x86
+		{CFF05550-CF75-424F-94C8-C62CD8329279}.Release|x86.ActiveCfg = Release|x86
+		{CFF05550-CF75-424F-94C8-C62CD8329279}.Release|x86.Build.0 = Release|x86
+		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

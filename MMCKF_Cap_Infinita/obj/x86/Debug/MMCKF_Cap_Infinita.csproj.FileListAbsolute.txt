@@ -1,0 +1,10 @@
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/MMCKF_Cap_Infinita.exe
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/MMCKF_Cap_Infinita.pdb
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/Matematica.dll
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/Modelos.dll
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/Modelos.pdb
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/bin/Debug/Matematica.pdb
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.csprojResolveAssemblyReference.cache
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.csproj.CoreCompileInputs.cache
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.exe
+/Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.pdb

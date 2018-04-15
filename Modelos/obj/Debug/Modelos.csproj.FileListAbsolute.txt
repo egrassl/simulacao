@@ -1,0 +1,8 @@
+/Users/coala/Projects/Simulacao/Modelos/bin/Debug/Modelos.dll
+/Users/coala/Projects/Simulacao/Modelos/bin/Debug/Modelos.pdb
+/Users/coala/Projects/Simulacao/Modelos/bin/Debug/Matematica.dll
+/Users/coala/Projects/Simulacao/Modelos/bin/Debug/Matematica.pdb
+/Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.csprojResolveAssemblyReference.cache
+/Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.csproj.CoreCompileInputs.cache
+/Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.dll
+/Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.pdb

@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{CFF05550-CF75-424F-94C8-C62CD8329279}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MMCKF_Cap_Infinita/Program.cs">
+    <Files>
+      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="115" Column="60" />
+      <File FileName="Modelos/Excel/ExcelWriter.cs" Line="33" Column="91" />
+      <File FileName="Modelos/MMCKF_C_Inf/CPU.cs" Line="12" Column="1" />
+      <File FileName="Modelos/CPUBase.cs" Line="16" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lab06 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
