@@ -30,10 +30,10 @@ namespace Modelos.Excel
 
         public void AdicionarNomesCPUs(List<CPUBase> cpus, bool addSpacing = true, string prefix = "")
         {
-            string linha = (addSpacing ? "," + prefix  : prefix) + (prefix != "" ? "," : "");
+            string linha = (addSpacing ? ":" + prefix  : prefix) + (prefix != "" ? ":" : "");
             foreach (CPUBase cpu in cpus)
             {
-                linha += string.Format("{0},", cpu.Name);
+                linha += string.Format("{0}:", cpu.Name);
             }
             Linhas.Add(linha);
         }
@@ -48,7 +48,7 @@ namespace Modelos.Excel
                 string linha = string.Format("{0}", propertyInfo.Name);
                 foreach (CPUBase cpu in cpus)
                 {
-                    linha += String.Format(",{0}", propertyInfo.GetValue(Convert.ChangeType(cpu,type)));
+                    linha += String.Format(":{0}", propertyInfo.GetValue(Convert.ChangeType(cpu,type)));
                 }
                 Linhas.Add(linha);
             }

@@ -7,3 +7,15 @@
 /Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/Lab06.csproj.CoreCompileInputs.cache
 /Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.exe
 /Users/coala/Projects/Simulacao/MMCKF_Cap_Infinita/obj/x86/Debug/MMCKF_Cap_Infinita.pdb
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\MMCKF_Cap_Infinita.exe
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\MMCKF_Cap_Infinita.pdb
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\Matematica.dll
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\Modelos.dll
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\Modelos.pdb
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\bin\Debug\Matematica.pdb
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\obj\x86\Debug\Lab06.csprojResolveAssemblyReference.cache
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\obj\x86\Debug\Lab06.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\obj\x86\Debug\Lab06.csproj.CopyComplete
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\obj\x86\Debug\MMCKF_Cap_Infinita.exe
+C:\Users\T-Gamer\Desktop\Simulacao\MMCKF_Cap_Infinita\obj\x86\Debug\MMCKF_Cap_Infinita.pdb

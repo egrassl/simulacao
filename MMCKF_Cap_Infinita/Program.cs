@@ -90,11 +90,11 @@ namespace Lab06
             excel.AdicionarNomesCPUs(cpus.ConvertAll(x => (CPUBase)x), false, "A");
             for (int i = 100; i <= 2000; i += 100)
             {
-                string linha = String.Format("{0},", i);
+                string linha = String.Format("{0}:", i);
                 foreach (CPU cpu in cpus)
                 {
                     cpu.A = (double)i / 3600.0;
-                    linha += String.Format("{0},", cpu.Tr);
+                    linha += String.Format("{0}:", cpu.Tr);
                 }
                 excel.Linhas.Add(linha);
             }
@@ -108,11 +108,11 @@ namespace Lab06
             excel.AdicionarNomesCPUs(cpus.ConvertAll(x => (CPUBase)x), false, "A");
             for (int i = 100; i <= 2000; i += 100)
             {
-                string linha = String.Format("{0},", i);
+                string linha = String.Format("{0}:", i);
                 foreach (CPU cpu in cpus)
                 {
                     cpu.A = (double)i/3600.0;
-                    linha += String.Format("{0},", cpu.Tw);
+                    linha += String.Format("{0}:", cpu.Tw);
                 }
                 excel.Linhas.Add(linha);
             }
