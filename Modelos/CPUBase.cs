@@ -63,11 +63,5 @@ namespace Modelos
                 return A / MI;
             }
         }
-
-
-        public CPUBase()
-        {
-            
-        }
     }
 }

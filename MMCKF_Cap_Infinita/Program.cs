@@ -75,7 +75,7 @@ namespace Lab06
 
             Type type = new CPU().GetType();
 
-
+            Console.WriteLine("Pn: {0}", cpus[1].Pn(4));
             // Tabela do exercício 1˜
             excel.Linhas.Add("Exercicio 1");
             excel.AdicionarNomesCPUs(cpus.ConvertAll(x => (CPUBase)x));

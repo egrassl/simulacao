@@ -1,17 +1,25 @@
-﻿<Properties StartupConfiguration="{CFF05550-CF75-424F-94C8-C62CD8329279}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MMCKF_Cap_Infinita/Program.cs">
+﻿<Properties StartupConfiguration="{30007854-8385-4B57-BE51-4478AFCF0FA7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Matematica/Funcoes.cs">
     <Files>
-      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="115" Column="60" />
-      <File FileName="Modelos/Excel/ExcelWriter.cs" Line="33" Column="91" />
-      <File FileName="Modelos/MMCKF_C_Inf/CPU.cs" Line="12" Column="1" />
-      <File FileName="Modelos/CPUBase.cs" Line="16" Column="48" />
+      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="32" Column="69" />
+      <File FileName="Modelos/Excel/ExcelWriter.cs" Line="51" Column="1" />
+      <File FileName="Modelos/MMCKF_C_Inf/CPU.cs" Line="7" Column="18" />
+      <File FileName="Modelos/MMC_Inf/CPU.cs" Line="53" Column="17" />
+      <File FileName="Aula07/Program.cs" Line="9" Column="29" />
+      <File FileName="Aula07/Ex2.cs" Line="80" Column="45" />
+      <File FileName="Matematica/Somatoria.cs" Line="23" Column="1" />
+      <File FileName="Modelos/CPUBase.cs" Line="65" Column="10" />
+      <File FileName="Matematica/Funcoes.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lab06 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/coala/Projects/Simulacao/Matematica/Funcoes.cs" relfile="Matematica/Funcoes.cs" line="18" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Aula07 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

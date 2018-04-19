@@ -1,3 +1,12 @@
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/bin/Debug/Modelos.dll
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/bin/Debug/Modelos.pdb
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/bin/Debug/Matematica.dll
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/bin/Debug/Matematica.pdb
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/obj/Debug/Modelos.csprojResolveAssemblyReference.cache
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/obj/Debug/Modelos.csproj.CoreCompileInputs.cache
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/obj/Debug/Modelos.csproj.CopyComplete
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/obj/Debug/Modelos.dll
+C:/Users/T-Gamer/Desktop/Simulacao/Modelos/obj/Debug/Modelos.pdb
 /Users/coala/Projects/Simulacao/Modelos/bin/Debug/Modelos.dll
 /Users/coala/Projects/Simulacao/Modelos/bin/Debug/Modelos.pdb
 /Users/coala/Projects/Simulacao/Modelos/bin/Debug/Matematica.dll
@@ -6,12 +15,3 @@
 /Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.csproj.CoreCompileInputs.cache
 /Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.dll
 /Users/coala/Projects/Simulacao/Modelos/obj/Debug/Modelos.pdb
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\bin\Debug\Modelos.dll
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\bin\Debug\Modelos.pdb
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\bin\Debug\Matematica.dll
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\bin\Debug\Matematica.pdb
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\obj\Debug\Modelos.csprojResolveAssemblyReference.cache
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\obj\Debug\Modelos.csproj.CopyComplete
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\obj\Debug\Modelos.dll
-C:\Users\T-Gamer\Desktop\Simulacao\Modelos\obj\Debug\Modelos.pdb

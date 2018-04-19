@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab06", "MMCKF_Cap_Infinita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematica", "Matematica\Matematica.csproj", "{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula07", "Aula07\Aula07.csproj", "{30007854-8385-4B57-BE51-4478AFCF0FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +27,9 @@ Global
 		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Debug|x86.Build.0 = Debug|Any CPU
 		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{3BB35B9C-27A8-4779-85BA-F4F185CA23FC}.Release|x86.Build.0 = Release|Any CPU
+		{30007854-8385-4B57-BE51-4478AFCF0FA7}.Debug|x86.ActiveCfg = Debug|x86
+		{30007854-8385-4B57-BE51-4478AFCF0FA7}.Debug|x86.Build.0 = Debug|x86
+		{30007854-8385-4B57-BE51-4478AFCF0FA7}.Release|x86.ActiveCfg = Release|x86
+		{30007854-8385-4B57-BE51-4478AFCF0FA7}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
