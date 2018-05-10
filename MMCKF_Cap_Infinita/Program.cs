@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Modelos.MMCKF_C_Inf;
 using Modelos.Excel;
 using Modelos;
 using System.Runtime.InteropServices;
@@ -17,9 +16,9 @@ namespace Lab06
 
         public static void Main(string[] args)
         {
-            List<CPU> cpus = new List<CPU>
+            List<Modelos.MMCKF_C_Inf.CPU> cpus = new List<Modelos.MMCKF_C_Inf.CPU>
             {
-                new CPU
+                new Modelos.MMCKF_C_Inf.CPU
                 {
                     Name = "Servidor",
                     A = a,
@@ -32,7 +31,7 @@ namespace Lab06
                         return (-8) * Math.Log(random.NextDouble());
                     }
                 },
-                new CPU
+                new Modelos.MMCKF_C_Inf.CPU
                 {
                     Name = "C1",
                     A = a,
@@ -40,7 +39,7 @@ namespace Lab06
                     KF = kf,
                     C = c
                 },
-                new CPU
+                new Modelos.MMCKF_C_Inf.CPU
                 {
                     Name = "C2",
                     A = a,
@@ -48,7 +47,7 @@ namespace Lab06
                     KF = kf,
                     C = c
                 },
-                new CPU
+                new Modelos.MMCKF_C_Inf.CPU
                 {
                     Name = "C3",
                     A = a,
@@ -73,13 +72,13 @@ namespace Lab06
 
             ExcelWriter excel = new ExcelWriter(path);
 
-            Type type = new CPU().GetType();
+            Type type1 = new Modelos.MMCKF_C_Inf.CPU().GetType();
 
-            Console.WriteLine("Pn: {0}", cpus[1].Pn(4));
+            //Console.WriteLine("Pn: {0}", cpus[1].Pn(4));
             // Tabela do exercício 1˜
-            excel.Linhas.Add("Exercicio 1");
+            excel.Linhas.Add("Exercicio 1 - MMCKF");
             excel.AdicionarNomesCPUs(cpus.ConvertAll(x => (CPUBase)x));
-            excel.AdicionarPropriedades(cpus.ConvertAll(x => (CPUBase)x), type);
+            excel.AdicionarPropriedades(cpus.ConvertAll(x => (object)x), type1);
 
             // Pula linha
             excel.Linhas.Add(Environment.NewLine);
@@ -91,7 +90,7 @@ namespace Lab06
             for (int i = 100; i <= 2000; i += 100)
             {
                 string linha = String.Format("{0}:", i);
-                foreach (CPU cpu in cpus)
+                foreach (Modelos.MMCKF_C_Inf.CPU cpu in cpus)
                 {
                     cpu.A = (double)i / 3600.0;
                     linha += String.Format("{0}:", cpu.Tr);
@@ -109,9 +108,67 @@ namespace Lab06
             for (int i = 100; i <= 2000; i += 100)
             {
                 string linha = String.Format("{0}:", i);
-                foreach (CPU cpu in cpus)
+                foreach (Modelos.MMCKF_C_Inf.CPU cpu in cpus)
                 {
                     cpu.A = (double)i/3600.0;
+                    linha += String.Format("{0}:", cpu.Tw);
+                }
+                excel.Linhas.Add(linha);
+            }
+
+            // Testar para modelo MMC
+
+            List<Modelos.MMC_Inf.CPU> mmcCpus = new List<Modelos.MMC_Inf.CPU>();
+
+            foreach (Modelos.MMCKF_C_Inf.CPU cpu in cpus)
+            {
+                mmcCpus.Add(new Modelos.MMC_Inf.CPU
+                {
+                    Name = cpu.Name,
+                    A = cpu.A,
+                    C = cpu.C,
+                    TS = cpu.TS
+                });
+            }
+
+            Type type2 = new Modelos.MMC_Inf.CPU().GetType();
+
+            // Tabela do MMC
+            excel.Linhas.Add("Exercicio 1 - MMC");
+            excel.AdicionarNomesCPUs(mmcCpus.ConvertAll(x => (CPUBase)x));
+            excel.AdicionarPropriedades(mmcCpus.ConvertAll(x => (object)x), type2);
+
+            // Pula linha
+            excel.Linhas.Add(Environment.NewLine);
+            excel.Linhas.Add(Environment.NewLine);
+
+            // Tabela grafico Tr x A
+            excel.Linhas.Add("Grafico Tr x A");
+            excel.AdicionarNomesCPUs(mmcCpus.ConvertAll(x => (CPUBase)x), false, "A");
+            for (int i = 100; i <= 2000; i += 100)
+            {
+                string linha = String.Format("{0}:", i);
+                foreach (Modelos.MMC_Inf.CPU cpu in mmcCpus)
+                {
+                    cpu.A = (double)i / 3600.0;
+                    linha += String.Format("{0}:", cpu.Tr);
+                }
+                excel.Linhas.Add(linha);
+            }
+
+            // Pula linha
+            excel.Linhas.Add(Environment.NewLine);
+            excel.Linhas.Add(Environment.NewLine);
+
+            // Tabela grafico Tw x A
+            excel.Linhas.Add("Grafico Tw x A");
+            excel.AdicionarNomesCPUs(mmcCpus.ConvertAll(x => (CPUBase)x), false, "A");
+            for (int i = 100; i <= 2000; i += 100)
+            {
+                string linha = String.Format("{0}:", i);
+                foreach (Modelos.MMC_Inf.CPU cpu in mmcCpus)
+                {
+                    cpu.A = (double)i / 3600.0;
                     linha += String.Format("{0}:", cpu.Tw);
                 }
                 excel.Linhas.Add(linha);

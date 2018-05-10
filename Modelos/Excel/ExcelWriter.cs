@@ -38,7 +38,7 @@ namespace Modelos.Excel
             Linhas.Add(linha);
         }
 
-        public void AdicionarPropriedades(List<CPUBase> cpus, Type type)
+        public void AdicionarPropriedades(List<object> cpus, Type type)
         {
             foreach (PropertyInfo propertyInfo in type.GetProperties())
             {
@@ -46,7 +46,7 @@ namespace Modelos.Excel
                     || propertyInfo.Name == "MediaAmostras" || propertyInfo.Name == "NumeroAmostras" )
                     continue;
                 string linha = string.Format("{0}", propertyInfo.Name);
-                foreach (CPUBase cpu in cpus)
+                foreach (object cpu in cpus)
                 {
                     linha += String.Format(":{0}", propertyInfo.GetValue(Convert.ChangeType(cpu,type)));
                 }

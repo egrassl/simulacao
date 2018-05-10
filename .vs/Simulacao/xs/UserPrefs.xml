@@ -1,25 +1,22 @@
-﻿<Properties StartupConfiguration="{30007854-8385-4B57-BE51-4478AFCF0FA7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Matematica/Funcoes.cs">
+﻿<Properties StartupConfiguration="{64D9B41C-779A-45D8-A7CC-245677AFC136}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Aula09/Program.cs">
     <Files>
-      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="32" Column="69" />
+      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="144" Column="13" />
       <File FileName="Modelos/Excel/ExcelWriter.cs" Line="51" Column="1" />
-      <File FileName="Modelos/MMCKF_C_Inf/CPU.cs" Line="7" Column="18" />
-      <File FileName="Modelos/MMC_Inf/CPU.cs" Line="53" Column="17" />
-      <File FileName="Aula07/Program.cs" Line="9" Column="29" />
-      <File FileName="Aula07/Ex2.cs" Line="80" Column="45" />
-      <File FileName="Matematica/Somatoria.cs" Line="23" Column="1" />
-      <File FileName="Modelos/CPUBase.cs" Line="65" Column="10" />
-      <File FileName="Matematica/Funcoes.cs" Line="19" Column="1" />
+      <File FileName="P2/SItem.cs" Line="6" Column="40" />
+      <File FileName="TesteP2/Program.cs" Line="90" Column="53" />
+      <File FileName="P2/Activity.cs" Line="102" Column="91" />
+      <File FileName="Aula09/Program.cs" Line="167" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lab06 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.TesteP2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/coala/Projects/Simulacao/Matematica/Funcoes.cs" relfile="Matematica/Funcoes.cs" line="18" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Aula09 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Aula07 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

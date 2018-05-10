@@ -41,7 +41,7 @@ namespace Aula07
 
             // Tabela do exercício 2 A
             excel.Linhas.Add("Exercicio 2 A");
-            excel.AdicionarPropriedades(servidoresA.ConvertAll(x => (CPUBase)x), typeA);
+            excel.AdicionarPropriedades(servidoresA.ConvertAll(x => (object)x), typeA);
 
             // Pula linha
             excel.Linhas.Add(Environment.NewLine);
@@ -62,7 +62,7 @@ namespace Aula07
             // Tabela do exercício 2B
             excel.Linhas.Add("Exercicio 2 B");
             excel.AdicionarNomesCPUs(servidoresB.ConvertAll(x => (CPUBase)x));
-            excel.AdicionarPropriedades(servidoresB.ConvertAll(x => (CPUBase)x), typeA);
+            excel.AdicionarPropriedades(servidoresB.ConvertAll(x => (object)x), typeA);
 
             // Pula linha
             excel.Linhas.Add(Environment.NewLine);
@@ -88,7 +88,7 @@ namespace Aula07
 
             // Tabela do exercício 3 A
             excel.Linhas.Add("Exercicio 3 A");
-            excel.AdicionarPropriedades(servidoresC.ConvertAll(x => (CPUBase)x), typeA);
+            excel.AdicionarPropriedades(servidoresC.ConvertAll(x => (object)x), typeA);
 
             // Pula linha
             excel.Linhas.Add(Environment.NewLine);
@@ -110,7 +110,7 @@ namespace Aula07
             // Tabela do exercício 3B
             excel.Linhas.Add("Exercicio 3 B");
             excel.AdicionarNomesCPUs(servidoresD.ConvertAll(x => (CPUBase)x));
-            excel.AdicionarPropriedades(servidoresD.ConvertAll(x => (CPUBase)x), typeA);
+            excel.AdicionarPropriedades(servidoresD.ConvertAll(x => (object)x), typeA);
 
             // Pula linha
             excel.Linhas.Add(Environment.NewLine);
