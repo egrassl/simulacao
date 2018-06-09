@@ -5,8 +5,8 @@ namespace P2
     {
         public string Nome { get; set; }
 
-        public int Inicio { get; set; }
+        public double Inicio { get; set; }
 
-        public int Fim { get; set; }
+        public double Fim { get; set; }
     }
 }

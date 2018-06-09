@@ -1,12 +1,10 @@
-﻿<Properties StartupConfiguration="{64D9B41C-779A-45D8-A7CC-245677AFC136}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Aula09/Program.cs">
+﻿<Properties StartupConfiguration="{982E6D60-80D4-4D13-A88D-4C35A511C1E2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="P2_Final/Program.cs">
     <Files>
-      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="144" Column="13" />
-      <File FileName="Modelos/Excel/ExcelWriter.cs" Line="51" Column="1" />
-      <File FileName="P2/SItem.cs" Line="6" Column="40" />
-      <File FileName="TesteP2/Program.cs" Line="90" Column="53" />
-      <File FileName="P2/Activity.cs" Line="102" Column="91" />
-      <File FileName="Aula09/Program.cs" Line="167" Column="48" />
+      <File FileName="MMCKF_Cap_Infinita/Program.cs" Line="144" Column="1" />
+      <File FileName="P2/SItem.cs" Line="6" Column="41" />
+      <File FileName="P2_Final/Program.cs" Line="159" Column="31" />
+      <File FileName="P2/Activity.cs" Line="72" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Lab06 PreferredExecutionTarget="MonoDevelop.Default" />
@@ -19,4 +17,5 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Aula09 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Aula07 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.P2__Final PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

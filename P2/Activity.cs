@@ -5,19 +5,19 @@ using System.Linq;
 namespace P2
 {
     public class Activity
-    {
-        List<int> ts;
-
+    {      
         bool areConnectionsSetted = false;
 
         Random rand = new Random();
+
+		public Func<double> CalcularTS { get; set; }
 
         public bool Print { get; set; }
 
         public static int numeroAmostra { get; set; }
 
         public int Media { get; set; }
-
+        
         public int DesvPad { get; set; }
 
         public int NumberProcessed { get; set; }
@@ -28,40 +28,13 @@ namespace P2
 
         public List<Tuple<Activity, double>> Connections { get; set; }
 
-        public int TempoEspera { get; set; }
-
-        public int TempoOcioso { get; set; }
+        public double TempoEspera { get; set; }
+        
+        public double TempoOcioso { get; set; }
 
         public string Nome { get; set; }
 
         public int NumeroConexoes { get; set; }
-
-        public List<int> TS 
-        {
-            get
-            {
-                if (ts == null)
-                    calcTS();
-                return ts;
-            }
-            set
-            {
-                ts = value;
-            }
-        }
-
-        int calcTS()
-        {
-            double result = 0.0;
-            do
-            {
-                double rand1 = rand.NextDouble();
-                double rand2 = rand.NextDouble();
-                double z = Math.Pow(-2 * Math.Log(rand1), 1 / 2) * Math.Cos(2 * Math.PI * rand2);
-                result = Math.Abs(z * DesvPad + Media);
-            } while (result < 0);
-            return (int)(Math.Round(result));
-        }
 
         public void SetupConnections()
         {
@@ -96,7 +69,7 @@ namespace P2
             FilaEntrada = FilaEntrada.OrderBy(x => x.Inicio).ToList();
             foreach (SItem item in FilaEntrada)
             {
-                var tempo = calcTS();
+				var tempo =  CalcularTS();
                 var newItem = AddItemToFilaProcesso(new SItem { Nome = item.Nome, Inicio = item.Inicio }, tempo);
                 Resultado.Add(newItem);
                 sendToConnection(new SItem { Inicio = newItem.Fim, Nome = newItem.Nome });
@@ -146,7 +119,7 @@ namespace P2
             }
         }
 
-        SItem AddItemToFilaProcesso(SItem newItem, int tempo)
+        SItem AddItemToFilaProcesso(SItem newItem, double tempo)
         {
             var ultimoItem = Resultado.OrderByDescending(x => x.Fim).FirstOrDefault();
             if (ultimoItem == null)
